@@ -1,7 +1,6 @@
 #include <stdio.h>
-int soma(int a, int b){
-    return a+b;
-}
+#include "funcoes.h"
+
 int main(){
     printf("Hello World\n");
     printf("%d\n", soma(1, 2));
